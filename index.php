@@ -26,10 +26,13 @@ charset=utf-8">
 <?php
     echo 'Lähme!';
 ?>
+<br>
 <?php echo "24"; ?>
-
+<br>
 <?php echo "26"; ?>
+<br>
 <?php echo "2426"; ?>
+<br>
 
 </body>
 </html>
