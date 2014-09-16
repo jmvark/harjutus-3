@@ -20,11 +20,16 @@ charset=utf-8">
     echo $variable;
 ?>
 
-// Selles näites on "Hello world!" string, mis koosneb 12 tähemärgist (ka tühik ning hüüumärk on tähemärgid).
-<?php echo "Hello world!"; ?>
-
 <h2>Stringid</h2>
+<?php echo "Hello world!"; ?>
+<br>
+<?php
+    echo 'Lähme!';
+?>
+<?php echo "24"; ?>
 
+<?php echo "26"; ?>
+<?php echo "2426"; ?>
 
 </body>
 </html>
