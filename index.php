@@ -33,6 +33,30 @@ charset=utf-8">
 <br>
 <?php echo "2426"; ?>
 <br>
+<br>
+<h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
+<?php
+$student1="Peeter"; 
+?>
+<?php
+$student2="Tiit"; 
+?>
+<?php
+$student3="Toomas"; 
+?>
+<?php
+$student4="Tanel"; 
+?>
+<?php
+$student5="Uno"; 
+?>
+
+<ul>
+	<?php echo <li><?php
+$student2="Tiit"; 
+?></li>; ?>
+</ul>
+
 
 </body>
 </html>
