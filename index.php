@@ -73,7 +73,31 @@ echo "<br>";
 </ul>
 <?php
 $test = "Testime";
-echo "$test kas interpolatsioon töötab"
+echo "$test kas interpolatsioon töötab";
+echo "<br>";
+$katse = "proov";
+echo "Me peame {$katse}ima, kas ka ka nii saab.";
+	$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+	$upper = strtoupper($source);
+	echo "<p>{$upper}</p>";
+$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+$first = ucfirst($source);
+echo "<p>{$first}</p>";
+	$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+	$words = ucwords($source);
+	echo "<p>{$words}</p>";
+$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+$len = strlen($source);
+echo "<p>{$len}</p>";
+	$source = "see Tekst SISALDAB suuri TÄHEMÄRKE!!!";
+	$trim = trim($source);
+	echo "<p>{$trim}</p>";
+
+
+
+
 ?>
+
+
 </body>
 </html>
