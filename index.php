@@ -103,6 +103,39 @@ $nr1 = 5;
 $nr2 = 10;
 
 echo ($nr1 + $nr2)* "10";
+echo "<br>";
 ?>
+<?php echo abs(-300) ;
+echo "<br>";
+?>
+
+<?php
+    // Viis ruudus:
+    echo pow(5, 2);
+
+    // Seitse kuubis:
+    echo pow(7, 3);
+
+    // Kolm astmel seitse:
+    echo pow(3, 7);
+    echo "<br>";
+?>
+<?php
+    // Ruutjuur 25-st:
+    echo sqrt(25);
+        echo "<br>";
+
+?>
+<?php
+    // Suvaline number
+    echo rand();
+
+    // Lihtsalt reavahetus, et vältida segadust piiranguteta ja piiranguga numbritel vahet tegemisel.
+    echo "<br>";
+
+    // Suvaline number vahemikus 7 - 22:
+    echo rand(7, 222);
+?>
+
 </body>
 </html>
