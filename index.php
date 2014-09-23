@@ -97,7 +97,12 @@ echo "<p>{$len}</p>";
 
 
 ?>
+<h2>Täisarvud</h2>
+<?php
+$nr1 = 5;
+$nr2 = 10;
 
-
+echo ($nr1 + $nr2)* "10";
+?>
 </body>
 </html>
