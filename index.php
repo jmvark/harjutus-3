@@ -71,5 +71,9 @@ echo "<br>";
 	</li>
 
 </ul>
+<?php
+$test = "Testime";
+echo "$test kas interpolatsioon töötab"
+?>
 </body>
 </html>
