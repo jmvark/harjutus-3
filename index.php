@@ -34,7 +34,7 @@ echo "<br>";
 <?php echo "2426"; ?>
 <h2>Nimekirja väljastamine muutujate ja stringide abil</h2>
 <?php 
-	$student1 = 'Jaan' . $fullname ' Värk';
+	$student1 = 'Jaan';
 	$student2 = 'Jaanus';
 	$student3 = 'Joonas';
 	$student4 = 'Mari';
